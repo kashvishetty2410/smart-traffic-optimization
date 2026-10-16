@@ -46,19 +46,26 @@ The system combines a Python-based data processing pipeline with cloud object st
 ## System Architecture
 
 ```mermaid
+
 flowchart TD
-    A[Historical Traffic CSV] --> B[Data Ingestion]
-    B --> C[Cloudflare R2 - Raw Data]
-    C --> D[Data Cleaning and Validation]
-    D --> E[Processed Traffic Data]
-    E --> F[Traffic Analytics]
-    E --> G[Signal Timing Optimization]
-    F --> H[Analysis Outputs]
-    G --> I[Optimization Evaluation]
-    H --> J[Cloudflare R2 - Processed Data]
+    A["Historical Traffic CSV"] --> B["Data Ingestion"]
+    B --> C[("Cloudflare R2<br/>Raw Data")]
+    C --> D["Data Cleaning & Validation"]
+    D --> E["Processed Traffic Data"]
+    E --> F["Traffic Analytics"]
+    E --> G["Signal Timing Optimization"]
+    F --> H["Traffic Analysis Outputs"]
+    G --> I["Optimization Evaluation"]
+    H --> J[("Cloudflare R2<br/>Processed Outputs")]
     I --> J
-    J --> K[Streamlit Dashboard]
-    K --> L[Interactive Charts and Recommendations]
+    J --> K["Streamlit Dashboard"]
+    K --> L["Interactive Charts & Recommendations"]
+
+    style A fill:#E8F1FF,stroke:#3776AB,color:#111827
+    style C fill:#FFF0D9,stroke:#F38020,color:#111827
+    style J fill:#FFF0D9,stroke:#F38020,color:#111827
+    style K fill:#FFE8EA,stroke:#FF4B4B,color:#111827
+
 ```
 
 ## Dataset

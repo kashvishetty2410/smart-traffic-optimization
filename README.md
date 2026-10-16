@@ -19,6 +19,18 @@ The Smart Traffic Optimization System analyzes historical traffic data to identi
 
 The system combines a Python-based data processing pipeline with cloud object storage and an interactive Streamlit dashboard. Users can explore traffic patterns by hour, compare junctions, examine congestion-related indicators, and evaluate proposed signal timings against a baseline.
 
+## Dashboard Preview
+
+### Traffic Overview
+![Traffic overview dashboard](docs/screenshots/traffic-overview.png)
+
+### Signal Optimization
+![Signal optimization evaluation](docs/screenshots/signal-optimization.png)
+
+### Detailed Analytics
+![Traffic analytics and recommendations](docs/screenshots/traffic-analytics.png)
+
+
 ## Key Features
 
 - **Traffic data processing:** Clean and validate historical traffic records.

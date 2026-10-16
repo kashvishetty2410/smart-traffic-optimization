@@ -30,6 +30,9 @@ FILES = {
     "data/processed/congestion_analysis.csv": "processed/congestion_analysis.csv",
     "data/processed/junction_hourly_analysis.csv": "processed/junction_hourly_analysis.csv",
     "data/processed/signal_recommendations.csv": "processed/signal_recommendations.csv",
+    "data/processed/signal_optimization_comparison.csv": "processed/signal_optimization_comparison.csv",
+    "data/processed/signal_optimization_summary.json": "processed/signal_optimization_summary.json",
+    "data/processed/signal_optimization_summary.txt": "processed/signal_optimization_summary.txt",
 }
 
 for local_relative, object_key in FILES.items():

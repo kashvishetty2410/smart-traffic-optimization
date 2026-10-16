@@ -1,0 +1,26 @@
+TRAFFIC DATA QUALITY REPORT
+================================
+Input file: traffic.csv
+Original rows: 48120
+Final rows: 48120
+Rows removed: 0
+Original columns: ['DateTime', 'Junction', 'Vehicles', 'ID']
+Final columns: ['DateTime', 'Junction', 'Vehicles', 'ID', 'Date', 'Hour', 'DayOfWeek', 'Month', 'Year', 'IsWeekend']
+
+QUALITY CHECKS
+--------------------------------
+Missing values before cleaning: 0
+Invalid timestamps: 0
+Invalid junction values: 0
+Invalid vehicle counts: 0
+Negative vehicle counts: 0
+Exact duplicate rows: 0
+Repeated timestamp-junction combinations: 0
+
+FINAL DATASET
+--------------------------------
+Remaining missing values: 0
+Junctions: [1, 2, 3, 4]
+Date range: 2015-11-01 00:00:00 to 2017-06-30 23:00:00
+Average vehicles per record: 22.79
+Cleaned file: D:\Desktop\smart-traffic-optimization\data\processed\cleaned_traffic.csv
